@@ -1,0 +1,149 @@
+/* css */
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* CSS Element */
+#head {
+    text-align: center;
+}
+
+#head .content {
+    margin-top: 20px;
+}
+
+#main {
+    width: 700px;
+    height: auto;
+    background-color: rgb(166, 215, 243);
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#question .timing {
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(47, 121, 233);
+    border-radius: 50%;
+    width: 50px;
+}
+
+#question {
+    border-radius: 20px;
+    background-color: rgb(221, 87, 10);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+#answer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.select-answer {
+    /* padding: ; */
+    height: 40px;
+    background-color: rgb(221, 87, 10);
+    width: 45%;
+    border-radius: 15px;
+    margin: 5px 10px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+#answer .marker-answer {
+    position: absolute;
+}
+
+#answer .dapan {
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 20px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#answer .select-answer:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* show game over */
+#show-gameover {
+    display: none;
+    width: 300px;
+    height: auto;
+    background-color: rgb(73, 212, 194);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: relative;
+    top: -31px;
+    left: 490px;
+}
+
+#show-gameover .content {
+    color: rgb(95, 8, 73);
+}
+
+#show-gameover #message {
+    margin: 10px 0;
+}
+
+#show-gameover #replay {
+    background-color: rgb(209, 38, 166);
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#replay:hover {
+    opacity: 0.6;
+    cursor: grab;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(46, 44, 44);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+/* xử lý lựa chọn người dùng */
+.bg-true {
+    background-color: rgb(5, 236, 121);
+}
+
+.bg-false {
+    background-color: rgb(129, 8, 4);
+}
+
+.border-for-main {
+    border: 5px dashed red;
+}
+
+
+
